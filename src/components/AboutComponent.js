@@ -74,7 +74,7 @@ function About(props) {
                 </div>
                 <div className="col-12">
                 <Media list>
-                {props.LEADERS.map(leader => (
+                {props.leaders.map(leader => (
                <RenderLeader key={leader.id} leader={leader} />
                 )
                 )
